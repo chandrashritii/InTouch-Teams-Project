@@ -5,7 +5,7 @@
 
 [**Video Demo**](https://youtu.be/oWEpEadlcWU)
 
-![User Flow](./assets/userflow.png)
+![User Flow](./assets/userflow-intouch.png)
 
 ## Video Call 
 - Built with WebRTC, React, Node JS and Express
