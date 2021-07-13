@@ -1,0 +1,32 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "dependencies" : {
+    "stream": "./functions/src/ws/stream"
+  },
+"hosting": {
+  "predeploy": [
+    "npm install"
+  ],
+  "hosting": {
+    "public": "functions/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "functions": {
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\""
+      ]
+    },
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "app"
+      }
+    ]
+  }
+}
+}

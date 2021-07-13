@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .stream-actions {
+        left: auto !important;
+    }
+}
+
+.navalign {
+    margin-top: 5px;
+    width: 24%;
+}
