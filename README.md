@@ -1,10 +1,11 @@
 
 # InTouch Teams
-![User Flow](./assets/userflow.png)
-
 
 [**Stay InTouch with Teams** - Try the application today!](https://intouch-videocall.herokuapp.com/)
+
 [**Video Demo**](https://youtu.be/oWEpEadlcWU)
+
+![User Flow](./assets/userflow.png)
 
 ## Video Call 
 - Built with WebRTC, React, Node JS and Express
