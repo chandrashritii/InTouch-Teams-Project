@@ -2,6 +2,10 @@
 # InTouch Teams
 ![User Flow](./assets/userflow.png)
 
+
+[**Stay InTouch with Teams** - Try the application today!](https://intouch-videocall.herokuapp.com/)
+[**Video Demo**](https://youtu.be/oWEpEadlcWU)
+
 ## Video Call 
 - Built with WebRTC, React, Node JS and Express
 - Can host upto 8 people without video/audio quality loss
