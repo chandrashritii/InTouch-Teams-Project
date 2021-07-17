@@ -5,6 +5,17 @@
 
 [**Video Demo**](https://youtu.be/oWEpEadlcWU)
 
+[**Design Document**](https://github.com/chandrashritii/InTouch-Teams-Project/wiki)
+
+## Why is InTouch Teams different
+
+- **Extensible** - The chat engine and videocall feature is built from scratch and with minimal dependencies. Additionally, it's database is hosted on Firebase. This makes the application highly extensible, i.e features can easily be integrated without worrying about interdependency between components, customization limits, and server overloading for video calls.
+- **Adaptable** - The code is compartmentalized, i.e it is broken into components. Changing any feature is an efficient process with an assurance that no other component will be impacted directly.
+- **Easy Integrations** - InTouch, as a platform, can be integrated into any organization's architecture as a microservice. Credits to the agile way of development.
+- **Painless UI** - The UI is built with React Suite components, keeping the CSS to minimal which greatly increases site loading time, execution time, memory consumption
+- **Hosted Database** - The database for the application is hosted on Firebase, making the application much more efficient and lightweight, decreasing the Database Throughput, and Database Response Time and increasing the Average response time.
+- **CI/CD** - Deployed on Heroku with a fully functioning CI/CD pipeline, thus enforcing the Agile Methodology
+
 ![User Flow](./assets/userflow-intouch.png)
 
 ## Video Call 
@@ -14,9 +25,10 @@
 #### Features
 
 - Secure chat in Guest Mode
-- Persistent chat with unlimited history in User Mode
+- Persistent chat with unlimited history in User Mode (Users can access the chat before, during, and after the meeting. Additionally, users can access chat without joining the videocall as well)
+- Video Grid View
 - ScreenShare
-- Record the Meeting
+- Record the Meeting (With the option of saving the recording directly to your local system)
 - Video/Audio Toggle
 - Share Room Link
 
@@ -36,7 +48,7 @@
 - Admin Privileges (Can edit room name and description)
 - Unique User Profiles
 - Editable User Profiles (NickNames, Profile Pictures)
-- Chat stored and rendered in accordance with the chat history
+- Chat stored and rendered in accordance with the chat and user history
 
 ## Tech Stack
 
