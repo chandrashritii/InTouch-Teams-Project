@@ -54,14 +54,17 @@
 
 - [WebRTC](https://webrtc.org/) for enabling VideoCall
 - [Socket.io](https://socket.io/) for receiving, pushing and interacting with remote streams
+- NodeJS client side backend for handling real time communications
+- Express server to complement the NodeJS backend, serve static output, and host webRTC socket connections
+- React and JavaScript for UI
+- CORS for enabling Cross Origin Referencing between Websockets
+- [Rsuite](https://rsuitejs.com/) Components for UI Layout
 - Firebase Authentication with Google with React Context API
 - Firebase Realtime Database for storing Message history, User Contexts, Room Database and Profiles
 - Firebase Storage for storing user profile data and files shared on Chat 
 - [React avatar editor](https://www.npmjs.com/package/react-avatar-editor) for User Profile pictures
 - [VANTA](https://github.com/tengbao/vanta) for animated backgrounds
 - [Emoji Picker](https://www.npmjs.com/package/emoji-picker-element) for sourcing emojis
-- [Rsuite](https://rsuitejs.com/) Components for UI Layout
-
 
 #### Local Installation Steps
 
@@ -78,3 +81,9 @@ $ npm install
 # Welcome to InTouch. Localhost should open at PORT 3000
 $ npm start
 ```
+
+#### Dependencies
+
+*Node*@ >10 || <12
+
+*React*@ ^16.6.0
