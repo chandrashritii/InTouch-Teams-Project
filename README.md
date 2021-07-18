@@ -1,5 +1,6 @@
 
 # InTouch Teams
+(Tested on Google Chrome)
 
 [**Stay InTouch with Teams** - Try the application today!](https://intouch-videocall.herokuapp.com/)
 
@@ -31,6 +32,7 @@
 - Record the Meeting (With the option of saving the recording directly to your local system)
 - Video/Audio Toggle
 - Share Room Link
+- Picture in Picture Mode (Enabled for User Video)
 
 ## Chat Rooms
 - Built with React, NodeJS, Express and Firebase
