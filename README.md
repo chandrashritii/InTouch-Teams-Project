@@ -1,6 +1,6 @@
 
 # InTouch Teams
-(Tested on Google Chrome)
+(Tested on Google Chrome | Not Mobile Responsive)
 
 [**Stay InTouch with Teams** - Try the application today!](https://intouch-videocall.herokuapp.com/)
 
